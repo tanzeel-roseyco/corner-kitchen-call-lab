@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Fino's Pizzeria call lab: an iPhone Phone-app emulator that dials Alex, the AI order line"><title>Fino's Pizzeria Call Lab</title>  <script type="module" crossorigin src="./assets/index-BwcGFdqM.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-lyBzGsyj.css">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Fino's Pizzeria call lab: an iPhone Phone-app emulator that dials Alex, the AI order line"><title>Fino's Pizzeria Call Lab</title>  <script type="module" crossorigin src="./assets/index-CuaGh0Lx.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-M-8VZN-D.css">
 </head>
 <body>
 <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -48,12 +48,12 @@
 <div class="dial-actions"><button id="call" class="dial-call" aria-label="Call Fino's"><svg><use href="#i-phone"/></svg></button><button id="dial-backspace" class="dial-backspace" aria-label="Delete last digit"><svg><use href="#i-backspace"/></svg></button></div></section>
 <section class="panel" id="panel-voicemail" role="tabpanel" aria-labelledby="tab-voicemail" hidden><h1 class="large-title">Voicemail</h1><p class="empty">No Voicemail</p></section>
 </div>
-<nav class="tabbar" role="tablist" aria-label="Phone">
-<button id="tab-favorites" role="tab" data-tab="favorites" aria-selected="false"><svg><use href="#i-star"/></svg>Favorites</button>
-<button id="tab-recents" role="tab" data-tab="recents" aria-selected="false"><svg><use href="#i-clock"/></svg>Recents</button>
-<button id="tab-contacts" role="tab" data-tab="contacts" aria-selected="false"><svg><use href="#i-person-circle"/></svg>Contacts</button>
-<button id="tab-keypad" role="tab" data-tab="keypad" aria-selected="true"><svg><use href="#i-grid"/></svg>Keypad</button>
-<button id="tab-voicemail" role="tab" data-tab="voicemail" aria-selected="false"><svg><use href="#i-voicemail"/></svg>Voicemail</button>
+<nav class="tabbar" id="tabbar" role="tablist" aria-label="Phone">
+<button id="tab-favorites" role="tab" data-tab="favorites" aria-controls="panel-favorites" aria-selected="false"><svg><use href="#i-star"/></svg>Favorites</button>
+<button id="tab-recents" role="tab" data-tab="recents" aria-controls="panel-recents" aria-selected="false"><svg><use href="#i-clock"/></svg>Recents</button>
+<button id="tab-contacts" role="tab" data-tab="contacts" aria-controls="panel-contacts" aria-selected="false"><svg><use href="#i-person-circle"/></svg>Contacts</button>
+<button id="tab-keypad" role="tab" data-tab="keypad" aria-controls="panel-keypad" aria-selected="true"><svg><use href="#i-grid"/></svg>Keypad</button>
+<button id="tab-voicemail" role="tab" data-tab="voicemail" aria-controls="panel-voicemail" aria-selected="false"><svg><use href="#i-voicemail"/></svg>Voicemail</button>
 </nav></div>
 
 <div class="call" id="call-screen" hidden>
@@ -80,4 +80,4 @@
 <div class="home-indicator" aria-hidden="true"></div>
 </div></section>
 <p class="caption">Private call lab · no real payments · <a class="footer-call" href="tel:+18782779239">call from your own phone</a></p>
-</main></body></html>
+</main></body></html>
