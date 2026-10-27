@@ -1,42 +1,83 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#ffffff"><meta name="description" content="Fino's Pizzeria call experience"><title>Fino's Pizzeria Call Lab</title>  <script type="module" crossorigin src="./assets/index-BiaK264t.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-c2rmi-bJ.css">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#000000"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Fino's Pizzeria call lab: an iPhone Phone-app emulator that dials Alex, the AI order line"><title>Fino's Pizzeria Call Lab</title>  <script type="module" crossorigin src="./assets/index-B9dODWPA.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B6Uutwcy.css">
 </head>
 <body>
 <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
-<symbol id="i-phone" viewBox="0 0 24 24"><path d="M4 15c4-4 12-4 16 0v4h-5v-4H9v4H4z" fill="currentColor" stroke="none"/></symbol>
-<symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8M3 3l18 18"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-mic-slash" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8M3 3l18 18"/></symbol>
 <symbol id="i-speaker" viewBox="0 0 24 24"><path d="M3 9h4l5-4v14l-5-4H3z" fill="currentColor" stroke="none"/><path d="M16 8c2 2 2 6 0 8M19 4c4 4 4 12 0 16"/></symbol>
 <symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="6" width="13" height="12" rx="3" fill="currentColor" stroke="none"/><path d="m17 9 5-3v12l-5-3z" fill="currentColor" stroke="none"/></symbol>
-<symbol id="i-grid" viewBox="0 0 24 24"><path d="M5 4h1m5 0h1m5 0h1M5 10h1m5 0h1m5 0h1M5 16h1m5 0h1m5 0h1M11 22h1" stroke-width="4" stroke-linecap="round"/></symbol>
-<symbol id="i-more" viewBox="0 0 24 24"><path d="M4 12h1m6 0h1m6 0h1" stroke-width="4" stroke-linecap="round"/></symbol>
-<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></symbol>
-<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11z"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><g fill="currentColor" stroke="none"><circle cx="6" cy="4.5" r="2"/><circle cx="12" cy="4.5" r="2"/><circle cx="18" cy="4.5" r="2"/><circle cx="6" cy="10.5" r="2"/><circle cx="12" cy="10.5" r="2"/><circle cx="18" cy="10.5" r="2"/><circle cx="6" cy="16.5" r="2"/><circle cx="12" cy="16.5" r="2"/><circle cx="18" cy="16.5" r="2"/><circle cx="12" cy="22" r="2"/></g></symbol>
+<symbol id="i-add-call" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.4"/><path d="M2.5 20c0-3.6 2.9-6.3 6.5-6.3s6.5 2.7 6.5 6.3M19 6v6M16 9h6"/></symbol>
+<symbol id="i-person-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3.3"/><path d="M5.5 19c1.6-3 3.8-4.3 6.5-4.3s4.9 1.3 6.5 4.3"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 7v5.2l3.2 2"/></symbol>
+<symbol id="i-voicemail" viewBox="0 0 24 24"><circle cx="6.5" cy="13" r="4"/><circle cx="17.5" cy="13" r="4"/><path d="M6.5 17h11"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v5.5M12 7.5v.5"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></symbol>
+<symbol id="i-backspace" viewBox="0 0 24 24"><path d="M9 5h12v14H9l-6-7z"/><path d="m12 9 6 6M18 9l-6 6"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-message" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
 </defs></svg>
-<header class="site-header"><a class="wordmark" href="#">FINO'S<span> PIZZERIA</span><small>THE CALL EXPERIENCE</small></a><button id="theme-toggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="Dark mode"><svg><use href="#i-sun"/></svg><span class="toggle-track"><span></span></span><svg><use href="#i-moon"/></svg></button></header>
-<main class="workspace">
-<div class="page-heading"><span class="eyebrow">GOOD FOOD. ONE CALL AWAY.</span><h1>Your next meal is a phone call away.</h1></div>
-<section class="phone-area" aria-label="iPhone-style call emulator">
-<div class="phone"><span class="side-key silent"></span><span class="side-key volume-up"></span><span class="side-key volume-down"></span><span class="side-key power"></span><div class="phone-screen" id="phone-screen">
-<div class="status-bar"><span>9:41</span><div class="dynamic-island"><i id="privacy-dot"></i></div><span class="status-icons" aria-hidden="true"><svg class="signal" viewBox="0 0 18 14"><path d="M1 10h3v4H1zm4-3h3v7H5zm4-3h3v10H9zm4-3h3v13h-3z" fill="currentColor" stroke="none"/></svg><svg viewBox="0 0 24 20"><path d="M2 6q10-9 20 0M6 10q6-5 12 0M10 14q2-2 4 0"/></svg><i class="battery"></i></span></div>
-<div class="call-heading"><p id="call-status">Ready to call</p><h2>Fino's Pizzeria</h2><p class="contact-number">+1 (878) 277-9239</p></div>
-<div class="phone-body">
-<div class="call-hint" id="message" role="status">Start a call to place your order.</div><div class="call-view" id="call-view">
-<div class="call-grid">
-<button class="call-control" disabled title="Select your audio output in browser settings"><span class="control-disc"><svg><use href="#i-speaker"/></svg></span><span>Speaker</span></button>
-<button class="call-control" disabled title="FaceTime is unavailable in this browser"><span class="control-disc"><svg><use href="#i-video"/></svg></span><span>FaceTime</span></button>
-<button id="mute" class="call-control" aria-label="Mute microphone" aria-pressed="false" disabled><span class="control-disc"><svg><use href="#i-mic"/></svg></span><span id="mute-label">Mute</span></button>
-<button id="more" class="call-control" disabled title="Additional call controls are unavailable"><span class="control-disc"><svg><use href="#i-more"/></svg></span><span>More</span></button>
-<button id="end" class="call-control end-control" aria-label="End call" disabled><span class="control-disc"><svg><use href="#i-phone"/></svg></span><span>End</span></button>
-<button id="show-keypad" class="call-control" aria-expanded="false" aria-controls="keypad-view"><span class="control-disc"><svg><use href="#i-grid"/></svg></span><span>Keypad</span></button>
-</div></div>
-<div class="keypad-view" id="keypad-view" hidden><div class="input-row"><output id="digits" aria-label="Entered digits">Enter digits</output><button id="backspace" aria-label="Delete last digit">⌫</button></div><div id="keypad" class="keypad" aria-label="Phone keypad"></div><div class="keypad-bottom"><button id="clear" class="text-control">Clear</button><button id="keypad-end" class="red-disc" aria-label="End call from keypad"><svg><use href="#i-phone"/></svg></button><button id="hide-keypad" class="text-control">Hide Keypad</button></div></div>
-<button id="call" class="start-call"><svg><use href="#i-phone"/></svg><span id="call-label">Call Fino's</span></button>
-</div><div class="home-indicator" aria-hidden="true"></div></div></div>
-<p class="under-phone">FINO'S PIZZERIA <span>•</span> PICKUP IN ABOUT 20 MINUTES</p>
-</section>
-</main><footer><a class="footer-call" href="tel:+18782779239">Is your wifi unstable? Call the demo here</a><span>PRIVATE CALL LAB · NO REAL PAYMENTS</span></footer></body></html>
+<main class="stage">
+<section class="frame" aria-label="iPhone Phone app emulator"><span class="side-key silent"></span><span class="side-key volume-up"></span><span class="side-key volume-down"></span><span class="side-key power"></span>
+<div class="screen" id="phone-screen">
+<div class="status-bar"><span class="clock" id="clock">9:41</span><div class="island" id="island"><span class="island-call" id="island-call" hidden><i></i><b id="island-timer">00:00</b></span></div><span class="status-icons" aria-hidden="true"><svg class="signal" viewBox="0 0 18 14"><path d="M1 10h3v4H1zm4-3h3v7H5zm4-3h3v10H9zm4-3h3v13h-3z" fill="currentColor" stroke="none"/></svg><svg class="wifi" viewBox="0 0 24 20"><path d="M2 6q10-9 20 0M6 10q6-5 12 0M10 14q2-2 4 0"/></svg><i class="battery"></i></span></div>
 
+<div class="app" id="app">
+<div class="panels">
+<section class="panel" id="panel-favorites" role="tabpanel" aria-labelledby="tab-favorites" hidden><h1 class="large-title">Favorites</h1>
+<ul class="list"><li><button class="row" data-dial aria-label="Call Fino's Pizzeria mobile"><span class="avatar">FP</span><span class="row-text"><span class="row-title">Fino's Pizzeria</span><span class="row-sub">mobile</span></span><svg class="row-action"><use href="#i-phone"/></svg></button></li></ul></section>
+<section class="panel" id="panel-recents" role="tabpanel" aria-labelledby="tab-recents" hidden><h1 class="large-title">Recents</h1>
+<div class="segment" aria-hidden="true"><span class="on">All</span><span>Missed</span></div>
+<ul class="list" id="recents-list"></ul><p class="empty" id="recents-empty">No Recent Calls</p></section>
+<section class="panel" id="panel-contacts" role="tabpanel" aria-labelledby="tab-contacts" hidden><div id="contacts-index"><h1 class="large-title">Contacts</h1>
+<div class="search" aria-hidden="true"><svg><use href="#i-search"/></svg><span>Search</span></div>
+<p class="section-letter">F</p><ul class="list"><li><button class="row" id="open-contact" aria-label="Open Fino's Pizzeria contact card"><span class="row-text"><span class="row-title"><b>Fino's</b> Pizzeria</span></span></button></li></ul></div>
+<div class="contact-card" id="contact-card" hidden><button class="back" id="contact-back"><svg><use href="#i-chevron"/></svg>Contacts</button>
+<span class="avatar big">FP</span><h2 class="contact-name">Fino's Pizzeria</h2>
+<div class="contact-actions"><span class="tile" aria-disabled="true"><svg><use href="#i-message"/></svg>message</span><button class="tile" data-dial><svg><use href="#i-phone"/></svg>call</button><span class="tile" aria-disabled="true"><svg><use href="#i-video"/></svg>video</span><span class="tile" aria-disabled="true"><svg><use href="#i-mail"/></svg>mail</span></div>
+<div class="group"><button class="group-row" data-dial><span class="label">mobile</span><span class="value blue">+1 (878) 277-9239</span></button></div>
+<div class="group"><div class="group-row"><span class="label">address</span><span class="value">14 Main Street North<br>Trumbauersville PA 18970</span></div></div>
+<div class="group"><div class="group-row"><span class="label">notes</span><span class="value">Pickup only. Tue–Thu 10:30–9, Fri–Sat 10:30–9:30, Sun 11:30–9. Closed Monday. Alex takes the order and a test card: 4242 4242 4242 4242, 12/30, 123.</span></div></div></div></section>
+<section class="panel keypad-panel" id="panel-keypad" role="tabpanel" aria-labelledby="tab-keypad">
+<output class="dial-display" id="dial" aria-label="Number to dial" aria-live="polite"></output>
+<div class="dial-keys" id="dial-keys" aria-label="Dial pad"></div>
+<div class="dial-actions"><button id="call" class="dial-call" aria-label="Call Fino's"><svg><use href="#i-phone"/></svg></button><button id="dial-backspace" class="dial-backspace" aria-label="Delete last digit"><svg><use href="#i-backspace"/></svg></button></div></section>
+<section class="panel" id="panel-voicemail" role="tabpanel" aria-labelledby="tab-voicemail" hidden><h1 class="large-title">Voicemail</h1><p class="empty">No Voicemail</p></section>
+</div>
+<nav class="tabbar" role="tablist" aria-label="Phone">
+<button id="tab-favorites" role="tab" data-tab="favorites" aria-selected="false"><svg><use href="#i-star"/></svg>Favorites</button>
+<button id="tab-recents" role="tab" data-tab="recents" aria-selected="false"><svg><use href="#i-clock"/></svg>Recents</button>
+<button id="tab-contacts" role="tab" data-tab="contacts" aria-selected="false"><svg><use href="#i-person-circle"/></svg>Contacts</button>
+<button id="tab-keypad" role="tab" data-tab="keypad" aria-selected="true"><svg><use href="#i-grid"/></svg>Keypad</button>
+<button id="tab-voicemail" role="tab" data-tab="voicemail" aria-selected="false"><svg><use href="#i-voicemail"/></svg>Voicemail</button>
+</nav></div>
 
-
-
+<div class="call" id="call-screen" hidden>
+<div class="call-head"><h2 class="call-name">Fino's Pizzeria</h2><p class="call-sub" id="call-status">calling mobile…</p></div>
+<div class="toast" id="message" role="status">Start a call to place your order.</div>
+<div class="call-view" id="call-view">
+<div class="controls">
+<button id="mute" class="ctl" aria-label="Mute microphone" aria-pressed="false" disabled><span class="disc"><svg><use href="#i-mic-slash"/></svg></span><span id="mute-label">mute</span></button>
+<button id="show-keypad" class="ctl" aria-expanded="false" aria-controls="keypad-view"><span class="disc"><svg><use href="#i-grid"/></svg></span>keypad</button>
+<button id="speaker" class="ctl" aria-label="Speaker" aria-pressed="false" disabled><span class="disc"><svg><use href="#i-speaker"/></svg></span>audio</button>
+<button class="ctl" disabled title="Adding a call is not available in this call lab"><span class="disc"><svg><use href="#i-add-call"/></svg></span>add call</button>
+<button class="ctl" disabled title="FaceTime is not available in this call lab"><span class="disc"><svg><use href="#i-video"/></svg></span>FaceTime</button>
+<button class="ctl" disabled title="Contacts are not available during a call in this call lab"><span class="disc"><svg><use href="#i-person-circle"/></svg></span>contacts</button>
+</div>
+<div class="end-row"><button id="end" class="end" aria-label="End call" disabled><svg><use href="#i-phone"/></svg></button><button id="call-back" class="end call-back" aria-label="Call back" hidden><svg><use href="#i-phone"/></svg></button></div>
+<div class="end-labels" id="end-labels" hidden><span>Cancel</span><span>Call Back</span></div>
+</div>
+<div class="keypad-view" id="keypad-view" hidden>
+<div class="entry-row"><output id="digits" aria-label="Entered digits">Enter digits</output><button id="backspace" aria-label="Delete last digit"><svg><use href="#i-backspace"/></svg></button></div>
+<div id="keypad" class="keypad" aria-label="In-call keypad"></div>
+<div class="keypad-bottom"><button id="clear" class="text-control">Clear</button><button id="keypad-end" class="end" aria-label="End call from keypad"><svg><use href="#i-phone"/></svg></button><button id="hide-keypad" class="text-control">Hide</button></div>
+</div>
+</div>
+<div class="home-indicator" aria-hidden="true"></div>
+</div></section>
+<p class="caption">Private call lab · no real payments · <a class="footer-call" href="tel:+18782779239">call from your own phone</a></p>
+</main></body></html>
